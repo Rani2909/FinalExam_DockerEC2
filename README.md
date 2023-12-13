@@ -1,5 +1,6 @@
 Description:
 Installing Docker, configuring the EC2 instance, deploying and executing the Docker container containing the application are the steps involved in deploying an application on EC2 using Docker. 
+
 Workflow:
 1.	Create an EC2 instance with the Amazon Linux 2 AMI on AWS, using SSH to connect the EC2 instance.
 2.	Use the SSH key pair associated with the instance to establish a secure connection.
@@ -13,5 +14,6 @@ Workflow:
 10.	Configure the workflow to run whenever changes are pushed to the main branch.
 11.	Deploy all the process automatically to the EC2 instances.
 12.	After successful deployment, we can host the website from EC2 instances using Public IP address.
+
 Reflection:
 It was necessary to carefully evaluate dependencies, environment variables, and the Dockerfile's overall structure before dockerizing the application. To make sure the Docker image was built correctly and had all the required parts.
